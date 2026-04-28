@@ -470,5 +470,5 @@ export default function AdminLoginPage() {
         </p>
       </motion.div>
     </div>
-  )
+
 }
