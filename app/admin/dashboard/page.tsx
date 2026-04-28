@@ -80,7 +80,8 @@ export default function AdminDashboard() {
   const router = useRouter()
   const [activeSection, setActiveSection] = useState<Section>('overview')
   const [data, setData] = useState<PortfolioData>(defaultPortfolioData)
-  const [toasts, setToasts] = useState<Toast[]>([])\n  const [saving, setSaving] = useState(false)
+  const [toasts, setToasts] = useState<Toast[]>([])
+const [saving, setSaving] = useState(false)
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const [globalUnread, setGlobalUnread] = useState(0)
 
